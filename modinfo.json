@@ -1,0 +1,15 @@
+{
+  "mods": [
+    {
+      "name": "Larkwell Care Package",
+      "author": "Begginfokillz",
+      "version": "2.0",
+      "compatibility": "w58",
+      "description": "free shit",
+      "fileType": "pak",
+      "fileURL": "https://github.com/begginfokillz/larkwell_carepackage_Icarus",
+      "imageURL": "A direct download URL to an image that will be displayed in the mod list (optional)",
+      "readmeURL": "https://github.com/begginfokillz/larkwell_carepackage_Icarus"
+    }
+  ]
+}

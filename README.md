@@ -11,9 +11,9 @@ A:
 - Go to steamapps\common\Icarus\Icarus\Content\Paks as a file directory. If there is no mods folder, create one inside Paks
 - If done right, it will now have a directory like this: steamapps\common\Icarus\Icarus\Content\Paks\mods.
 - Download LarkwellCarePackage.zip file from mod page and put it in the mods folder.
-- Extract either LarkwellCarePackageReplacer _P.pak file to the mods folder.
-- Remove LarkwellCarePackage.zip file from mod folder as you no longer need it.
-- If needed, research the Shengong Bandage in game in workshop tab from hab screen if you have not already done so.
+- Extract the .pak filefrom the downloaded LarkwellCarePackage.zip thing to the mods folder.
+- Remove LarkwellCarePackage.zip file from your rig as you no longer need it.
+- have fun.
 
 ----------------------------
 Q: How to use this mod?
@@ -30,11 +30,10 @@ A: FOR NEW ITEM VARIANT:
 ----------------------------
 Q: What does this mod do? 
 ----------------------------
-A: It replaces the Shengong Bandage item in game with a larkwell themed care package.
+A: It adds a brand new item to the orbital habitat workshop thing, called the Larkwell Care Package, which contains some goodies to use in a mission.
 
-Q: What does this care package contain? A:
-
-Use it to find out :D.
+Q: What does this care package contain?
+A: Use it to find out :D
 
 Q: Any bugs or issues?
 A: France still exists.

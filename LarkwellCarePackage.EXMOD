@@ -1,0 +1,454 @@
+{
+    "ModName": "LarkwellCarePackage",
+    "Author": "Eric",
+    "Version": "2.0",
+    "fileURL": "",
+    "imageURL": "",
+    "readmeURL": "",
+    "compatibility": "",
+    "description": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Inventory-D_InventoryInfo.json",
+            "File_Items": [
+                {
+                    "Name": "Space_Player_Loadout",
+                    "StartingSlots": 35
+                },
+                {
+                    "Name": "DropShip_Equipment",
+                    "StartingSlots": 35
+                },
+                {
+                    "Name": "Exotic_Delivery_Ship",
+                    "StartingSlots": 90
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemsStatic.json",
+            "File_Items": [
+				{
+					"Name": "Meta_Carepackage_Larkwell",
+					"Meshable": {
+						"RowName": "Mesh_Survival_Backpack"
+					},
+					"Itemable": {
+						"RowName": "Item_Meta_Carepackage_Larkwell"
+					},
+					"Interactable": {
+						"RowName": "Item"
+					},
+					"Highlightable": {
+						"RowName": "Generic"
+					},
+					"Consumable": {
+						"RowName": "Meta_Carepackage_Larkwell"
+					},
+					"Usable": {
+						"RowName": "Consume"
+					},
+					"Armour": {
+						"DataTableName": "D_Actionable"
+					},
+					"Decayable": {
+						"RowName": "Decay_MetaItem"
+					},
+					"Audio": {
+						"RowName": "Default"
+					},
+					"Manual_Tags": {
+						"GameplayTags": [
+							{
+								"TagName": "Item.Meta"
+							},
+							{
+								"TagName": "Item.Meta.Consumable"
+							},
+							{
+								"TagName": "MetaItem.DoNotReturn"
+							}
+						]
+					},
+					"Generated_Tags": {
+						"GameplayTags": [
+							{
+								"TagName": "Item.Meta"
+							},
+							{
+								"TagName": "Traits.Meshable"
+							},
+							{
+								"TagName": "Traits.Itemable"
+							},
+							{
+								"TagName": "Traits.Interactable"
+							},
+							{
+								"TagName": "Traits.Highlightable"
+							},
+							{
+								"TagName": "Traits.Usable"
+							},
+							{
+								"TagName": "Item.Meta.Consumable"
+							},
+							{
+								"TagName": "MetaItem.DoNotReturn"
+							}
+						],
+						"ParentTags": []
+					}
+				}
+			]
+        },
+        {
+            "CurrentFile": "MetaWorkshop-D_WorkshopItems.json",
+            "File_Items": [
+				{
+				"Name": "Meta_Carepackage_Larkwell",
+				"Item": {
+					"RowName": "Meta_Carepackage_Larkwell"
+				},
+				"ResearchCost": [
+					{
+						"Meta": {
+							"RowName": "Credits",
+							"DataTableName": "D_MetaCurrency"
+						},
+						"Amount": 1000
+					},
+					{
+						"Meta": {
+							"RowName": "Exotic1",
+							"DataTableName": "D_MetaCurrency"
+						},
+						"Amount": 1500
+					}
+				],
+				"ReplicationCost": [
+					{
+						"Meta": {
+							"RowName": "Credits",
+							"DataTableName": "D_MetaCurrency"
+						},
+						"Amount": 250
+					},
+					{
+						"Meta": {
+							"RowName": "Exotic1",
+							"DataTableName": "D_MetaCurrency"
+						},
+						"Amount": 150
+					}
+				]
+			}
+		]
+        },
+        {
+            "CurrentFile": "Items-D_ItemTemplate.json",
+            "File_Items": [
+				{
+					"Name": "Meta_Carepackage_Larkwell",
+					"ItemStaticData": {
+						"RowName": "Meta_Carepackage_Larkwell"
+					}
+				}
+			]
+        },
+        {
+            "CurrentFile": "Talents-D_Talents.json",
+            "File_Items": [
+			{
+				"Name": "Meta_Carepackage_Larkwell",
+				"ExtraData": {
+					"RowName": "Meta_Carepackage_Larkwell",
+					"DataTableName": "D_WorkshopItems"
+				},
+				"TalentTree": {
+					"RowName": "Workshop"
+				},
+				"Position": {
+					"X": 6150,
+					"Y": 2900
+				},
+				"Size": {
+					"X": 250,
+					"Y": 250
+				},
+				"RequiredTalents": [
+					{
+						"RowName": "Workshop_Envirosuit",
+						"DataTableName": "D_Talents"
+					}
+				]
+			}
+			]
+        },
+        {
+            "CurrentFile": "Traits-D_Itemable.json",
+            "File_Items": [
+			{
+				"Name": "Item_Envirosuit_Deluxe",
+				"DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Envirosuit_Deluxe-DisplayName\", \"First Cohort Envirosuit\")",
+				"Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/ITEM_DeluxeEnvirosuit_1.ITEM_DeluxeEnvirosuit_1",
+				"Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Envirosuit_Deluxe-Description\", \"A rare, early-model First Cohort envirosuit, issued exclusively to pioneer prospectors on the planet.\")",
+				"FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Envirosuit_Deluxe-FlavorText\", \"Originally issued by the UDA, these suits have subsequently become valuable collectors\\' items. No longer available for purchase.\")",
+				"Weight": 100
+			},
+			{
+				"Name": "Item_Meta_Carepackage_Larkwell",
+				"DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Larkwell-DisplayName\", \"Larkwell Martinez \\'Black Label\\' Care Package\")",
+				"Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Survival_Backpack.ITEM_Survival_Backpack",
+				"Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Larkwell-Description\", \"Unpack to collect a carefully hand picked assortment of high quality wares from Larkwell Martinez to assist you in your first few days planetside. The contents of this package cannot be returned to the Orbital Station.\")",
+				"FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Carepackage_Larkwell-FlavorText\", \"A fairly priced product from Larkwell Martinez and fan favorite of the First Cohort. Comes packed with a standardized set of Larkwell Martinez brand equipment and each package comes with a complimentary set of ST-700 Composite Armor. No warranty offered and no refunds accepted.\")",
+				"Weight": 5000
+			}
+          ]
+        },
+        {
+            "CurrentFile": "Traits-D_Armour.json",
+            "File_Items": [
+			{
+				"Name": "Undersuit_Deluxe",
+				"ArmourMesh": "/Game/ASS/CHA/Suits/SK_CHA_MAL_Envirosuit_Deluxe.SK_CHA_MAL_Envirosuit_Deluxe",
+				"FemaleMeshVariant": "/Game/ASS/CHA/Suits/SK_CHA_FEM_Envirosuit_Deluxe.SK_CHA_FEM_Envirosuit_Deluxe",
+				"FirstPersonMeshVariant": "/Game/ASS/CHA/Suits/SK_1ST_CHA_MAL_Envirosuit_Deluxe.SK_1ST_CHA_MAL_Envirosuit_Deluxe",
+				"AnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
+				"FemaleAnimBlueprintClass": "/Game/ASS/CHA/Human/3RD/SK_CHA_3RD_MAL_01_CopyPose_AnimBP.SK_CHA_3RD_MAL_01_CopyPose_AnimBP_C",
+				"ArmourStats": {
+					"(Value=\"BaseOxygenSlots_+\")": 1,
+					"(Value=\"BaseWaterSlots_+\")": 1,
+					"(Value=\"BaseFoodSlots_+\")": 1,
+					"(Value=\"BaseUpgradeSlots_+\")": 6,
+					"(Value=\"BaseMeleeDamage_+%\")": 50,
+					"(Value=\"BaseProjectileDamage_+%\")": 50,
+					"(Value=\"BaseMaximumStamina_+\")": 100,
+					"(Value=\"BaseStaminaRegen_+%\")": 25,
+					"(Value=\"BaseHeatResistance_%\")": 15,
+					"(Value=\"BaseColdResistance_%\")": 15,
+					"(Value=\"BaseExposureResistance_+%\")": 15,
+					"(Value=\"BaseStealthThreatModifier_+%\")": -15
+				},
+				"ArmourType": "Undersuit",
+				"ImplicitDefaultArmour": [
+					{
+						"RowName": "Undersuit_Deluxe_Helmet",
+						"DataTableName": "D_Armour"
+					}
+				]
+			}
+          ]
+        },
+        {
+            "CurrentFile": "Traits-D_Consumable.json",
+            "File_Items": [
+			{
+				"Name": "Meta_Carepackage_Larkwell",
+				"Modifier": {
+					"ModifierLifetime": 0
+				},
+				"Byproducts": [
+					{
+						"RowName": "Meta_Larkwell_Backpack_Beta",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Carbon_Armor_Helmet_Alpha",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Carbon_Armor_Chest_Alpha",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Carbon_Armor_Arms_Alpha",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Carbon_Armor_Legs_Alpha",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Carbon_Armor_Feet_Alpha",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Spear_Larkwell",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Bow_Larkwell",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Knife_Larkwell",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Axe_Larkwell",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Pickaxe_Larkwell",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Sickle_Larkwell",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Hammer_Larkwell",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Arrow_Larkwell_Standard_x25",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Super_Ration",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Soda",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Oxygen_Gel",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Antibiotic_Vaccine_Charlie",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Antiparasitic_Vaccine_Charlie",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Antipoison_Vaccine_Charlie",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Blood_Thinning_Vaccine_Charlie",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Repair_Item_Pack",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Meta_Repair_Item_Pack",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Biofuel_Can_Meta",
+						"DataTableName": "D_ItemTemplate"
+					},
+					{
+						"RowName": "Biofuel_Can_Meta",
+						"DataTableName": "D_ItemTemplate"
+					}
+				]
+			}
+          ]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}
+
